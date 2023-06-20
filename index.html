@@ -1344,7 +1344,7 @@ function userland() {
  p.write8(kstr, orig_kview_buf);
  chain = new rop();
  if (chain.syscall(20).low == 0) {
-  alert("Webkit exploit error. Please exit internet browser & try entering internet browser again.");
+  alert("Webkit exploit error. Please exit internet browser & ReEnter internet browser again.");
   while (1);
  }
 }
@@ -1627,7 +1627,7 @@ function kernel() {
         }
         else
         {
-            alert("Jailbreak failed!!! Please remove USB Pendrive JBv9, press OK & exit internet browser & re-enter internet browser with another usb port, or you can restart PS4.");
+            alert("Jailbreak failed!!! Please remove USB Pendrive JBv9, press OK & exit internet browser & ReEnter internet browser with another usb port, or you can restart PS4.");
             p.write8(0, 0);
         }
  };
